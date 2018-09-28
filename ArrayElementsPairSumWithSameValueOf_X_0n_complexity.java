@@ -11,7 +11,7 @@ import java.util.HashSet;
 public class ArrayElementsPairSumWithSameValueOf_X_0n_complexity {
 	static void getPairs(int arr[],int sum) 
     {        
-        HashSet s = new HashSet(); 
+        HashSet<Integer> s = new HashSet<Integer>(); 
         for (int i=0; i<arr.length; ++i) 
         { 
             int temp = sum-arr[i]; 
