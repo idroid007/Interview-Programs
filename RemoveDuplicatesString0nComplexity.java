@@ -1,5 +1,9 @@
 package interview;
-
+/*
+ * Remove Duplicate Characters from string using 0n complexity By -Ishu Sharma
+ * 
+ * we are removing Duplicate characters on the basis of its ascii number.
+ */
 public class RemoveDuplicatesString0nComplexity {
 	
 	static String removeDuplicate(String str) {
